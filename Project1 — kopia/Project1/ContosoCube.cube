@@ -1,0 +1,355 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="252964a6-aefc-477f-a87d-92b964e34570" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ContosoCube</ID>
+  <Name>ContosoCube</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11824" scrolltop="-2238" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17066" y="10848" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vFactITSLA" left="-4816" top="794" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3387" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00003b0d0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="olap_vFactITSLA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-11824</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2238</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-4816</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>794</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Translations>
+    <Translation dwd:design-time-name="33b40c00-5162-420e-8601-b0f65b0bd54f">
+      <Language>1045</Language>
+      <Caption>KostkaContoso</Caption>
+    </Translation>
+  </Translations>
+  <Dimensions>
+    <Dimension dwd:design-time-name="51d26e9e-1c80-4f56-8fe5-1bd5dcfac651">
+      <ID>DimMachine</ID>
+      <Name>DimMachine</Name>
+      <Translations>
+        <Translation dwd:design-time-name="5c0597c4-617d-4a4c-bd60-b5f769fe1c51">
+          <Language>1045</Language>
+          <Caption>Sprzęt</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>DimMachine</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1792fd82-8e9a-4ac9-a1e0-edc96b29933c">
+          <AttributeID>Machine Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a48e3132-29c4-4035-80de-b0555f64c3af">
+          <AttributeID>Machine Label</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2fd49c33-8317-47fa-a6d2-394e6a7c6078">
+          <AttributeID>Machine Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d6da73e-1f36-4c36-bf71-37a3689192c4">
+          <AttributeID>Machine Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9d0f8734-e934-4532-83c8-bdbef9265d14">
+          <AttributeID>Machine Description</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="71a6d610-717e-4b26-9755-3b8188cb077f">
+          <AttributeID>Machine OS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87718fb4-c75a-4bb5-b110-d62d6b44fac7">
+          <AttributeID>Machine Source</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06f5d94f-1e88-4da3-9daa-b50a035c2047">
+          <AttributeID>Vendor Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="fa6f47a2-8629-4b81-884c-f7d748916d6d">
+      <ID>DimOutage</ID>
+      <Name>DimOutage</Name>
+      <Translations>
+        <Translation dwd:design-time-name="ab95f8af-15af-441e-b927-4fb5a350d742">
+          <Language>1045</Language>
+          <Caption>Przestój</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>DimOutage</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="afd65d5d-601d-4ebe-9299-2e39bbec0fb3">
+          <AttributeID>Outage Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2f1e4814-b7c4-4c75-acdc-a6aa8d4f35ac">
+          <AttributeID>Outage Label</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a45968eb-ea8e-426e-8a59-9f95e09a0347">
+          <AttributeID>Outage Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d2518d80-78ab-443d-85bd-17b3bd786cd3">
+          <AttributeID>Outage Description</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9df3f3ad-523c-402c-b6a9-ad8a8aae0641">
+          <AttributeID>Outage Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="30692b70-a270-4e0e-8f93-a3957ebf3bd0">
+          <AttributeID>Outage Type Description</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="69b522c0-7be4-4abd-b914-b5af49cda4d0">
+      <ID>DimDate</ID>
+      <Name>DimDate</Name>
+      <Translations>
+        <Translation dwd:design-time-name="f207cf45-bece-4046-8512-7674739d40a0">
+          <Language>1045</Language>
+          <Caption>Data</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>DimDate</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6f7a863b-42f2-4238-b648-024753b4291b">
+          <AttributeID>Datekey</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d305a096-a62f-4b36-b352-d33461214886">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f2423b8-a074-44e5-9450-ce82a8f87f70">
+          <AttributeID>Calendar Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="45af7d71-5b8a-49bf-a89b-8a32846e280e">
+          <AttributeID>Calendar Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae82db37-4323-4ac3-abc3-38db4776e333">
+          <AttributeID>Calendar Month</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="15adc237-9bbc-4be4-ab7e-42cbf31340d0">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="2a0c4926-8d19-4ff3-a886-3ab67156fcc0">
+      <ID>DimStore</ID>
+      <Name>DimStore</Name>
+      <Translations>
+        <Translation dwd:design-time-name="58856472-a057-4b5e-bdd2-0c58557dc658">
+          <Language>1045</Language>
+          <Caption>Sklep</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>DimStore</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b5fa1eb0-cebd-4a82-ade4-7e611315825a">
+          <AttributeID>Store Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2dee7742-1622-473e-8377-714ed1973aca">
+          <AttributeID>Store Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eee1ecb7-1bf7-4628-881b-c424bdfdd02c">
+          <AttributeID>Store Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a7a9ed95-6d67-475c-869b-3da4a4478371">
+          <AttributeID>Store Description</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9dffbacc-edcc-480c-bc2c-64189e93ce3a">
+          <AttributeID>Status</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="694b5737-7674-4972-9093-c308e7a293b9">
+      <ID>v Fact ITSLA</ID>
+      <Name>v Fact ITSLA</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="897b3fe4-6f61-4275-bf64-17ee27f5ab9a">
+          <ID>Down Time</ID>
+          <Name>Down Time</Name>
+          <Source dwd:design-time-name="f8b7290f-de8a-46dd-b2b7-00c5ee323015">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7caa36d3-7f68-480e-8a07-738e84a060eb">
+              <TableID>olap_vFactITSLA</TableID>
+              <ColumnID>DownTime</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="43825d7e-b865-4ce2-b5ec-0bce83f30c67">
+              <Language>1045</Language>
+              <Caption>CzasPrzestoju</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+        <Measure dwd:design-time-name="64bc5d61-f3cf-45d9-81fe-76f9d6fcead6">
+          <ID>v Fact ITSLA Count</ID>
+          <Name>Row Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="8da63592-5d85-46d7-9d35-c2366b080334">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="06c02f1c-6fe9-427d-a36a-430c383b5e7c">
+              <TableID>olap_vFactITSLA</TableID>
+            </Source>
+          </Source>
+          <FormatString>#,##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="bb6487f8-f07b-4a8e-b733-0fd1790715b9">
+              <Language>1045</Language>
+              <Caption>LiczbaWierszy</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+        <Measure dwd:design-time-name="f8c5800f-fb07-4857-92a3-a633153a0b52">
+          <ID>Down Time Hrs</ID>
+          <Name>Down Time Hrs</Name>
+          <Source dwd:design-time-name="78d6a87d-f0a2-41d7-b75e-ddde91789b7d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0b47c8db-a373-4ea7-9d61-13e91033b907">
+              <TableID>olap_vFactITSLA</TableID>
+              <ColumnID>DownTimeHrs</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="04e496a0-2c72-4cd8-ba95-7ab4e27f0e79">
+              <Language>1045</Language>
+              <Caption>PrzestMIN</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="eb75c04d-6af6-4422-9e48-ed9249efcfa3">
+          <CubeDimensionID>DimMachine</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7d0f490e-dde5-4a63-872c-0b2fb7013716">
+              <AttributeID>Machine Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="92298027-046b-4314-9076-64a0e055cab1">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3918e362-8a19-4bbc-8520-ad443e8d9371">
+                    <TableID>olap_vFactITSLA</TableID>
+                    <ColumnID>MachineKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="76412d82-ffd5-42cc-a55e-d0590adb6406">
+          <CubeDimensionID>DimOutage</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="212f2682-e3b4-4400-b356-1e93c19049fc">
+              <AttributeID>Outage Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="090f621e-577f-4a6d-a286-fe9f1d1ec20c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2da293fa-31cb-48ee-a4c7-f3dbb4db1b36">
+                    <TableID>olap_vFactITSLA</TableID>
+                    <ColumnID>OutageKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="00265adf-2801-4c1d-a727-5b0b721cccb1">
+          <CubeDimensionID>DimDate</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a46520ff-46a5-4959-b56c-d38baae7c2ec">
+              <AttributeID>Datekey</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4624946a-19e9-481b-be9c-07bb0c48854a">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="09864016-a547-4fcb-af55-ed42c8a78cf3">
+                    <TableID>olap_vFactITSLA</TableID>
+                    <ColumnID>DateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5156ab24-fc7e-48a3-9d1e-4987a71d2a9f">
+          <CubeDimensionID>DimStore</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2e0ef849-47d2-468c-a276-fecace6de262">
+              <AttributeID>Store Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c9a7205b-3daa-4c90-81a5-6a40995b01aa">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ef222df1-7ef6-47bb-bd83-b29e2a36701a">
+                    <TableID>olap_vFactITSLA</TableID>
+                    <ColumnID>StoreKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="f0ac59f3-d83a-454a-a0b6-9437448cac68">
+    <DataSourceViewID>Contoso Retail DW</DataSourceViewID>
+  </Source>
+</Cube>
