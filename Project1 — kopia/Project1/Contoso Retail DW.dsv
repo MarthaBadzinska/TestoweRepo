@@ -49,7 +49,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimMachine" left="11415" top="6529" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3704" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimMachine" left="12111" top="6425" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3704" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000c0000780e000088130000" />
                   </control>
@@ -60,7 +60,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimOutage" left="4332" top="13638" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="4683" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimOutage" left="5028" top="13742" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="4683" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000c00004b12000043110000" />
                   </control>
@@ -113,7 +113,7 @@
                     <point x="7348" y="6819" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="8715" top="8630" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="8715" top="8526" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3696" height="802" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -127,13 +127,13 @@
                     </ddsxmlobj>
                   </layoutobject>
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="22" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="11415" y="9029" />
-                    <point x="10215" y="9029" />
+                    <point x="12111" y="8925" />
+                    <point x="10215" y="8925" />
                     <point x="10215" y="9028" />
                     <point x="9015" y="9028" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="6274" top="10938" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="1374" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="6970" top="10938" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3304" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -147,8 +147,8 @@
                     </ddsxmlobj>
                   </layoutobject>
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="8" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="6673" y="13638" />
-                    <point x="6673" y="12438" />
+                    <point x="7369" y="13742" />
+                    <point x="7369" y="12438" />
                     <point x="7348" y="12438" />
                     <point x="7348" y="11238" />
                   </connector>
@@ -430,7 +430,7 @@
                   <xs:element name="OutageStartTime" msprop:design-time-name="399982c6-c5b4-4885-867e-26ffd1d97e44" msprop:DbColumnName="OutageStartTime" msprop:FriendlyName="OutageStartTime" type="xs:dateTime" />
                   <xs:element name="OutageEndTime" msprop:design-time-name="5e6e0842-93cd-439a-ac39-96b13a612163" msprop:DbColumnName="OutageEndTime" msprop:FriendlyName="OutageEndTime" type="xs:dateTime" />
                   <xs:element name="DownTime" msprop:design-time-name="028cba52-060a-4d6a-a921-9482b0b6c2f8" msprop:DbColumnName="DownTime" msprop:FriendlyName="DownTime" type="xs:int" />
-                  <xs:element name="DownTimeHrs" msprop:DbColumnName="DownTimeHrs" msprop:design-time-name="f0b96cfb-b7b6-424a-adaa-b9db6bf0f477" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="DownTimeHrs" msprop:design-time-name="f0b96cfb-b7b6-424a-adaa-b9db6bf0f477" msprop:DbColumnName="DownTimeHrs" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
